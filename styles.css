@@ -1,0 +1,90 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+}
+
+header {
+    background-color: #ffffff;
+    color: #808080;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+nav a {
+    background-color: #808080;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    border: 1px solid #808080;
+    color: #808080;
+}
+
+footer {
+    background-color: #808080;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.introduction {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 2rem;
+    text-align: center;
+    color: #000000;
+}
+
+.regular-block {
+    background: #f9f9f9;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: 2rem;
+    transition: 0.5s;
+}
+
+.regular-block:hover {
+    box-shadow: 0 0 25px #808080;
+}
+
+.first {
+    border-bottom: 1px dotted #000000;
+    padding-bottom: 2rem;
+}
+
+.last {
+    padding-top: 2rem;
+}
